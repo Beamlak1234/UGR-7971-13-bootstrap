@@ -1,93 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Places page</title>
-    <link rel="stylesheet" href="css/style.css">
- 
-  </head>
-
-  <body>
-    <header>
-      <img class="logo" src="images/images/360_F_405029055_kMGBx9LXwIxSerlc9eEY4bnBpF5X7yri.jpg" alt="logo">
-      
-      <nav>
-          <span><a href="Home.html">Home</a></span>
-          <span><a href="Aboutme.html">About</a></span>
-          <span><a href="Hobbies.html">Hobbies</a></span>
-          <span><a href="Places.html">places</a></span>
-          <span><a href="Contact.html">Contact</a></span>
-          
-      </nav>    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Places page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../images/images/logo.jpg" alt="logo" width="40" height="40" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutme.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Places.html">Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
+
   <main>
-    <div class="visited">
-        <h3>places i bisted befor</h3>
-        <img src="images/images/friendshippark.jpg" alt="friendship">
-        <ul>
-            <li>
-                friendship have a good view specailly at night thats what i love about it the most
-            </li>
-            <li>
-                <address>Address: 2QF5+C9, Addis Ababa</address>
-            </li>
-        </ul>
-        <img src="images/images/Debere-Libanos.jpg" alt="dbrelibaos">
-        <ul>
-            <li>It is an Ethiopian Orthodox Tewahedo monastery, lying northwest of Addis Ababa in the North Shewa Zone of the Oromia Region. It was founded in 1284 by Saint Tekle Haymanot as Debre Atsbo and was renamed as Debre Libanos in the 15th century.
-                
-            </li>
-            <li>
-                <address>
-                    Address: PR6X+Q2J, Bolo
-                </address>
-            </li>
-        </ul>
+    <div class="container">
+      <div class="visited">
+        <h3>Places I Visited Before</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="friendpic img-fluid" src="../images/images/friendshippark.jpg" alt="friendship">
+            <ul class="list-unstyled para3">
+              <li>Friendship Park has a good view, especially at night. It is known for people who like to walk, take pictures, and have fun. There is also food service available, although it can be a little expensive.</li>
+              <li><address class="para3">Address: 2QF5+C9, Addis Ababa</address></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img class="debrepic img-fluid" src="../images/images/Debere-Libanos.jpg" alt="debrelibaos">
+            <ul class="list-unstyled para3">
+              <li>Debre Libanos is an Ethiopian Orthodox Tewahedo monastery located northwest of Addis Ababa. It was founded in 1284 by Saint Tekle Haymanot as Debre Atsbo and was renamed Debre Libanos in the 15th century.</li>
+              <li><address class="para3">Address: PR6X+Q2J, Bolo</address></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="plantovisit">
+        <h3>Places I Plan to Visit in the Near Future</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="lalibela img-fluid" src="../images/images/lalibela.jpg" alt="lalibela">
+            <ul class="list-unstyled para3">
+              <li>Lalibela is known for its monolithic rock-hewn churches. It was built by the best-known Zagwe emperor in the 13th century and later renamed after him.</li>
+              <li><address class="para3">Address: 12.0309° N, 39.0476° E in Amhara Region</address></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img class="wonchi img-fluid" src="../images/images/Wonchi-creater-Lake.jpg" alt="wonchilake">
+            <ul class="list-unstyled para3">
+              <li>Wonchi Crater Lake is a beautiful legacy of a once powerful volcano. It is located 98 km (61 mi) west of Addis Ababa in the Oromia Region.</li>
+              <li><address class="para3">Address: Located 98 km (61 mi) west of Addis Ababa in the Oromia Region</address></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-    <div class="plantovisit">
-        <h3>
-            places i planed to visit in the near future
-        </h3>
-        <img src="images/images/lalibela.jpg" alt="lalibela">
-       <ul>
-        <li>
-            Lalibela, the best-known Zagwe emperor, ruled at the beginning of the 13th century and is known for building the monolithic rock-hewn churches at the Zagwe capital, which was later renamed for him.
-        </li>
-        <li>
-            <address>Address:12.0309° N, 39.0476° E in amhara region</address>
-
-        </li>
-       </ul>
-       <img src="images/images/Wonchi-creater-Lake.jpg" alt="wonchilake">
-       <ul>
-        <li>
-            Wonchi Crater Lake is the beautiful legacy of a once powerful volcano erupting in the Tertiary period of the Cenozoic era.
-        </li>
-        <li>
-            <address>
-                located 98 km (61 mi) west of Addis Ababa, in Oromia Region, Ethiopia.
-            </address>
-        </li>
-
-       </ul>
-    </div>
-
-
-  
   </main>
 
-  <footer class="footer">
-    <div class="socials">
-
-      <a href="http://instagram.com/"><img  src="images/images/download.png" alt="instagram icon">@beamliiii</a>
-      <a href="http://telegram.com/"><img  src="images/images/images.png" alt="telegram icon">@BeamlakTH</a>
-      
-  </div>
-
+  <footer class="bg-light">
+    <div class="container text-center">
+      <div class="social-media">
+        <a href="https://t.me/BeamlakTH" target="_blank" class="me-2">
+          <img src="../images/images/telegram.jpg" alt="Telegram" width="20" height="20">
+          BeamlakTH
+        </a>
+        <a href="https://instagram.com/beamliiii?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D" target="_blank" class="me-2">
+          <img src="../images/images/instagram.png" alt="Instagram" width="20" height="20">
+          beamliiii
+        </a>
+      </div>
+      <p class="para">&copy; My social media contacts.</p>
+    </div>
   </footer>
-    
-  </body>
-  </html
+
+ 
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

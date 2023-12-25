@@ -1,49 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page</title>
-    <link rel="stylesheet" href="css/style.css">
- 
-  </head>
 
-  <body>
-    <header>
-      <img class="logo" src="images/images/360_F_405029055_kMGBx9LXwIxSerlc9eEY4bnBpF5X7yri.jpg" alt="logo">
-      
-      <nav>
-          <span><a href="Home.html">Home</a></span>
-          <span><a href="Aboutme.html">About</a></span>
-          <span><a href="Hobbies.html">Hobbies</a></span>
-          <span><a href="Places.html">places</a></span>
-          <span><a href="Contact.html">Contact</a></span>
-          
-      </nav>    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../images/images/logo.jpg" alt="logo" width="40" height="40" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutme.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Places.html">Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
-
-  <main class="header">
-    
-      
-          <div class="profile-image">
-            <img src="images/images/photo_2023-11-25_13-16-55.jpg" alt="profile">
-          </div>
-
-         
-              <h1>Hi,I am beamlak T/haymanot</h1>
-    
+  <main class="header flex-grow-1 d-flex align-items-center">
+    <div class="container text-center">
+      <div class="profile-image">
+        <img src="../images/images/me.jpg" alt="profile" class="rounded-circle" width="200" height="200">
+      </div>
+      <h1>Hi, I am Beamlak T/haymanot</h1>
+    </div>
   </main>
 
-  <footer class="footer">
-    <div class="socials">
-
-      <a href="http://instagram.com/"><img  src="images/images/download.png" alt="instagram icon">@beamliiii</a>
-      <a href="http://telegram.com/"><img  src="images/images/images.png" alt="telegram icon">@BeamlakTH</a>
-      
-  </div>
-
+  <footer class="bg-light mt-auto">
+    <div class="container text-center">
+      <div class="social-media">
+        <a href="https://t.me/BeamlakTH" target="_blank" class="me-2">
+          <img src="../images/images/telegram.jpg" alt="Telegram" width="20" height="20">
+          BeamlakTH
+        </a>
+        <a href="https://instagram.com/beamliiii?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D" target="_blank" class="me-2">
+          <img src="../images/images/instagram.png" alt="Instagram" width="20" height="20">
+          beamliiii
+        </a>
+      </div>
+      <p class="para">&copy; My social media contacts.</p>
+    </div>
   </footer>
-    
-  </body>
-  </html>
+
+  
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

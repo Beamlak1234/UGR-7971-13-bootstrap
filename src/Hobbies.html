@@ -1,65 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobbies page</title>
-    <link rel="stylesheet" href="css/style.css">
- 
-  </head>
 
-  <body>
-    <header>
-      <img class="logo" src="images/images/360_F_405029055_kMGBx9LXwIxSerlc9eEY4bnBpF5X7yri.jpg" alt="logo">
-      
-      <nav>
-          <span><a href="Home.html">Home</a></span>
-          <span><a href="Aboutme.html">About</a></span>
-          <span><a href="Hobbies.html">Hobbies</a></span>
-          <span><a href="Places.html">places</a></span>
-          <span><a href="Contact.html">Contact</a></span>
-          
-      </nav>    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobbies page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../images/images/logo.jpg" alt="logo" width="40" height="40" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutme.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Places.html">Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
-
-  <main class="header">
-    <h3>My Hobbies</h3>
-    <div class="sun">
-         
-        <img src="images/images/0422-wp-sunsets.webp" alt="watching sunset">
-             <p>
-                there is something about sun set that makes my whole body relaxed and i like gazing at sunset everytime i have the chance.
-           </p>
-    </div>
-    <div class="music">
-        <img src="images/images/download.jpg" alt="listening to music">
-        <p>
-            I love listening to music and it have a very big impact on my mood,my day and that's beacuse it can manuipulate your emotion very well in many differnt way.
-        </p>
-    </div>
-    <div class="cook">
-        <img src="images/images/360_F_332753934_tBacXEgxnVplFBRyKbCif49jh0Wz89ns.jpg" alt="cooking">
-        <p> cooking is something i do in my free time,Also i very much enjoy it i also like to expirement new things ,foods i see in social media for examlple</p>
+  <main class="d-flex flex-column align-items-center justify-content-center text-center"
+    <div class="container">
+      <h3 class="text-center">My Hobbies</h3>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mb-3 bg-dark text-white mt-4">
+            <img src="../images/images/0422-wp-sunsets.webp" class="card-img-top" alt="watching sunset">
+            <div class="card-body">
+              <p class="card-text">There is something about sunset that makes my whole body relaxed, and I like gazing
+                at sunset every time I have the chance.</p>
+            </div>
+          </div>
         </div>
-    <div class="books">
-        <img src="images/images/downloadbook.jpg" alt="reading book">
-        <p>since i like pyschology i like reading books about human behaviour their interaction i also like fiction </p>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mb-3 bg-dark text-white mt-4">
+            <img src="../images/images/download.jpg" class="card-img-top" alt="listening to music">
+            <div class="card-body">
+              <p class="card-text">I love listening to music, and it has a very big impact on my mood and my day. Music
+                can manipulate your emotions in many different ways.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mb-3 bg-dark text-white mt-4">
+            <img src="../images/images/cooking.jpg" class="card-img-top" alt="cooking">
+            <div class="card-body">
+              <p class="card-text">Cooking is something I do in my free time. I enjoy experimenting with new foods and
+                dishes I see on social media, for example.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mb-3 bg-dark text-white mt-4">
+            <img src="../images/images/downloadbook.jpg" class="card-img-top" alt="reading book">
+            <div class="card-body">
+              <p class="card-text">Since I like psychology, I enjoy reading books about human behavior and their
+                interactions. I also like fiction.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    
-    
   </main>
-
-  <footer class="footer">
-    <div class="socials">
-
-      <a href="http://instagram.com/"><img  src="images/images/download.png" alt="instagram icon">@beamliiii</a>
-      <a href="http://telegram.com/"><img  src="images/images/images.png" alt="telegram icon">@BeamlakTH</a>
-      
-  </div>
-
+  <footer class="bg-light mt-auto">
+    <div class="container text-center">
+      <div class="social-media">
+        <a href="https://t.me/BeamlakTH" target="_blank" class="me-2">
+          <img src="../images/images/telegram.jpg" alt="Telegram" width="20" height="20">
+          BeamlakTH
+        </a>
+        <a href="https://instagram.com/beamliiii?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D" target="_blank" class="me-2">
+          <img src="../images/images/instagram.png" alt="Instagram" width="20" height="20">
+          beamliiii
+        </a>
+      </div>
+      <p class="para">&copy; My social media contacts.</p>
+    </div>
   </footer>
-    
-  </body>
-  </html>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,48 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aboutme page</title>
-    <link rel="stylesheet" href="css/style.css">
- 
-  </head>
 
-  <body>
-    <header>
-      <img class="logo" src="images/images/360_F_405029055_kMGBx9LXwIxSerlc9eEY4bnBpF5X7yri.jpg" alt="logo">
-      
-      <nav>
-          <span><a href="Home.html">Home</a></span>
-          <span><a href="Aboutme.html">About</a></span>
-          <span><a href="Hobbies.html">Hobbies</a></span>
-          <span><a href="Places.html">places</a></span>
-          <span><a href="contact.html">Contact</a></span>
-          
-      </nav>    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me Page</title>
+  <link rel="stylesheet" href="../src/main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../images/images/logo.jpg" alt="logo" width="40" height="40" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutme.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Places.html">Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
-
-  <main class="header"> 
-    <div class="video">
-        <video width="640" height="360" controls>
-        <source src="images/images/THEGREATESTQUOTESOFALLTIME.mp4" type="video/mp4">
+  <main class="d-flex flex-column align-items-center justify-content-center text-center mt-4">
+    <div class="container">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video class="embed-responsive-item w-50 h-50" controls>
+          <source src="../images/images/THEGREATESTQUOTESOFALLTIME.mp4" type="video/mp4">
+          Your browser does not support the video tag.
         </video>
-            <p>
-                hi my name is Beamlak T/haymanot and i am a software student and i am very sociable person and i like to talking to people in general i like interacting with people i also like psychology.In general i like humanity i am also a fan of books the above video is famouse quote from famuos author in the video in the 2:22 second <EM>"EVER TIRED.EVER FAILED-NO MATTER TRY AGAIN FAIL AGAIN FAIL BETTER"</EM>
-            </p>
       </div>
-   </main>
+      <div class="description mt-4">
+        <p>
+          Hi, my name is Beamlak T/haymanot, and I am a software student. I am a very sociable person and I like talking
+          to people. In general, I enjoy interacting with people. I also have an interest in psychology. I am a fan of
+          books as well. The video above contains famous quotes from a renowned author. At the 2:22 mark, there is a
+          quote that says, "EVER TIRED. EVER FAILED. NO MATTER. TRY AGAIN. FAIL AGAIN. FAIL BETTER." This quote inspires
+          me to keep trying and not give up. I believe that everyone should adopt this mindset.
+        </p>
+      </div>
+    </div>
+  </main>
 
-  <footer class="footer">
-    <div class="socials">
-
-      <a href="http://instagram.com/"><img  src="images/images/download.png" alt="instagram icon">@beamliiii</a>
-      <a href="http://telegram.com/"><img  src="images/images/images.png" alt="telegram icon">@BeamlakTH</a>
-      
-  </div>
-
+  <footer class="bg-light">
+    <div class="container text-center">
+      <div class="social-media">
+        <a href="https://t.me/BeamlakTH" target="_blank" class="me-2">
+          <img src="../images/images/telegram.jpg" alt="Telegram" width="20" height="20">
+          BeamlakTH
+        </a>
+        <a href="https://instagram.com/beamliiii?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D" target="_blank" class="me-2">
+          <img src="../images/images/instagram.png" alt="Instagram" width="20" height="20">
+          beamliiii
+        </a>
+      </div>
+      <p class="para">&copy; My social media contacts.</p>
+    </div>
   </footer>
-    
-  </body>
-  </html>
+
+  
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
